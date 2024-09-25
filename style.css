@@ -145,6 +145,7 @@ a {
  .bottomcard {
     display: flex;
     padding: 150px 350px 150px 350px;
+    justify-content: center;
  }
 
  .call {
