@@ -54,7 +54,7 @@ a {
     flex-direction: column;
 }
 
-button {
+.tbutton {
     background: #3882f6;
     color: #f9faf8;
     border-radius: 12px;
@@ -88,7 +88,7 @@ button {
     gap: 40px;
     padding-left: 350px;
     padding-right: 350px;
-    padding-bottom: 200px;
+    padding-bottom: 150px;
 }
 
 .tmimgs {
@@ -119,3 +119,68 @@ button {
     border-color: #3882f6;
     border-radius: 12px;
 }
+
+.middlecard {
+    display: flex;
+    background: lightgray;
+    flex-direction: column;
+    padding: 150px 350px 150px 350px;
+}
+ 
+.mtext {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    font-weight: 50;
+ }
+
+ .quote {
+    font-size: 24px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: right;
+ }
+
+ .bottomcard {
+    display: flex;
+    padding: 150px 350px 150px 350px;
+ }
+
+ .call {
+    display: flex;
+    background: #3882f6;
+    color: #f9faf8;
+    width: 900px;
+    height: 200px;
+    border-radius: 12px;
+    justify-content: space-around;
+    align-items: center;
+    
+ }
+
+ .bbottom {
+    border-style: solid;
+    border-color: #f9faf8;
+    border-width: 1px;
+    border-radius: 12px;
+    background-color: #3882f6;
+    padding: 8px 40px 8px 40px;
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 900;
+ }
+
+ .thorbold {
+    font-weight: 900;
+    font-size: 24px;
+ }
+
+ .footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+ }
